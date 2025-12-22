@@ -1,10 +1,10 @@
-n = int(input("Введите количество чисел: ")) 
+n = int(input('Введите количество чисел: ')) 
 
 max1 = 0
 max2 = 0
 
 for _ in range(n):
-    num = int(input("Введите число: ")) 
+    num = int(input('Введите число: ')) 
 
     if num > max1:
         max2 = max1
@@ -14,4 +14,5 @@ for _ in range(n):
 
 print(max1)
 print(max2)
+
 
